@@ -1,0 +1,34 @@
+- code: "VERIFIED_INTACT"
+  score: 0
+  meaning: "Barrier physically confirmed active, tested, and operational prior to task commencement"
+  color: "#10b981"
+
+- code: "DEGRADED"
+  score: 1
+  meaning: "Barrier exists but has lost partial effectiveness (e.g. calibration overdue, minor wear, drift)"
+  color: "#f59e0b"
+
+- code: "UNVERIFIED"
+  score: 2
+  meaning: "Assumed complete or expected, but positive verification step was skipped or not recorded (flagship maintenance pattern)"
+  color: "#f97316"
+
+- code: "WEAK"
+  score: 3
+  meaning: "Barrier was inappropriate, substandard, or incapable of containing full potential release energy"
+  color: "#ef4444"
+
+- code: "MISSING"
+  score: 3
+  meaning: "Required preventive or mitigative barrier was never installed, planned, or deployed"
+  color: "#dc2626"
+
+- code: "FAILED"
+  score: 3
+  meaning: "Barrier was in place but ruptured, tripped, or failed under operational load"
+  color: "#b91c1c"
+
+- code: "BYPASSED"
+  score: 3
+  meaning: "Barrier was intentionally bypassed, disabled, jumpered, or overridden without approved management of change"
+  color: "#7f1d1d"

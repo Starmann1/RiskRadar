@@ -1,0 +1,29 @@
+- canonical: "pressure"
+  display_name: "Pressure / Hydraulic / Pneumatic"
+  typical_sources: ["Hydrocarbon pipelines", "Pressure vessels", "High-pressure mud systems", "Hydraulic accumulators", "Compressed air lines"]
+  energy_level_default: 3
+
+- canonical: "gravitational"
+  display_name: "Gravitational / Height"
+  typical_sources: ["Suspended crane loads", "Heavy tools at height", "Elevated work platforms", "Derrick mast equipment"]
+  energy_level_default: 3
+
+- canonical: "chemical"
+  display_name: "Chemical / Toxic / Hydrocarbon"
+  typical_sources: ["H2S gas streams", "Volatile crude condensates", "Acidizing chemicals", "Corrosive drilling additives"]
+  energy_level_default: 3
+
+- canonical: "thermal"
+  display_name: "Thermal / Ignition"
+  typical_sources: ["Welding arcs", "Hot process piping", "Flares", "Internal combustion exhausts in hazardous zones"]
+  energy_level_default: 2
+
+- canonical: "electrical"
+  display_name: "Electrical"
+  typical_sources: ["33kV/11kV substations", "Motor control centers (MCC)", "Generator feeds", "Cathodic protection systems"]
+  energy_level_default: 3
+
+- canonical: "mechanical"
+  display_name: "Mechanical / Kinetic / Tension"
+  typical_sources: ["Drill rotary table", "Pumping jacks", "Tensioned winch lines", "Rotating compressor couplings", "Moving crew vehicles"]
+  energy_level_default: 2

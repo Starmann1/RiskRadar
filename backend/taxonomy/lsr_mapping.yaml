@@ -1,0 +1,80 @@
+- id: "BYPASSING_SAFETY_CONTROLS"
+  rule_number: 1
+  display_name: "Bypassing Safety Controls"
+  core_action: "Obtain authorisation before overriding or disabling safety controls"
+  icon: "ShieldAlert"
+  official_source: "IOGP Report 459"
+  triggers: ["alarm silenced", "interlock jumpered", "bypass not logged", "fire detector isolated", "relief valve gagged", "safety override without MOC"]
+  guidance: "I understand and use safety-critical equipment and procedures. I obtain authorisation before overriding or disabling safety controls."
+
+- id: "CONFINED_SPACE"
+  rule_number: 2
+  display_name: "Confined Space"
+  core_action: "Obtain authorisation before entering a confined space"
+  icon: "Box"
+  official_source: "IOGP Report 459"
+  triggers: ["entered before gas test", "no attendant present", "vessel entry", "manhole open", "pit entry", "confined space permit expired", "oxygen deficiency", "h2s alarm"]
+  guidance: "I confirm energy sources are isolated. I confirm the atmosphere has been tested and is monitored. I check and use my breathing apparatus when required. I confirm an attendant is present."
+
+- id: "DRIVING"
+  rule_number: 3
+  display_name: "Driving"
+  core_action: "Follow safe driving rules"
+  icon: "Car"
+  official_source: "IOGP Report 459"
+  triggers: ["phone use while driving", "excessive speed noted", "seatbelt not fastened", "fatigue driving", "tanker rollover risk", "fog driving", "no journey plan"]
+  guidance: "I always wear a seatbelt. I do not exceed the speed limit and reduce my speed for road conditions. I do not use mobile phones or other devices while driving. I am fit, rested, and fully alert."
+
+- id: "ENERGY_ISOLATION"
+  rule_number: 4
+  display_name: "Energy Isolation"
+  core_action: "Verify isolation and zero energy before work begins"
+  icon: "ZapOff"
+  official_source: "IOGP Report 459"
+  triggers: ["isolation assumed", "positive verification not performed", "flange breaking without test", "residual pressure", "LOTO not applied", "worked live", "circuit not confirmed dead"]
+  guidance: "I have identified all sources of energy. I confirm that hazardous energy sources have been isolated, locked, and tagged. I have checked there is zero energy and tested for residual energy."
+
+- id: "HOT_WORK"
+  rule_number: 5
+  display_name: "Hot Work"
+  core_action: "Control flammables and ignition sources"
+  icon: "Flame"
+  official_source: "IOGP Report 459"
+  triggers: ["grinding near open drain", "permit not renewed", "fire watch absent", "welding on live line", "habitat not pressurized", "cutting torch near manifold", "spark near drain"]
+  guidance: "I identify and control flammables and potential ignition sources. Before starting any hot work, I confirm the atmosphere has been tested. I stop work if I smell gas or hear a gas alarm."
+
+- id: "LINE_OF_FIRE"
+  rule_number: 6
+  display_name: "Line of Fire"
+  core_action: "Position yourself to avoid the line of fire"
+  icon: "Crosshair"
+  official_source: "IOGP Report 459"
+  triggers: ["stood near swinging load", "between vehicle and wall", "pinch point", "recoil path", "winch line snap zone", "pressurized cap release", "struck by", "worker under load"]
+  guidance: "I position myself to avoid being struck by moving objects, vehicles, pressure releases, or dropped items. I establish and obey barriers and exclusion zones."
+
+- id: "SAFE_MECHANICAL_LIFTING"
+  rule_number: 7
+  display_name: "Safe Mechanical Lifting"
+  core_action: "Plan lifting operations and control the area"
+  icon: "Anchor"
+  official_source: "IOGP Report 459"
+  triggers: ["sling condition not checked", "lift plan not followed", "overloaded crane", "rigger not certified", "tandem lift without plan", "outriggers unpadded", "worker under load"]
+  guidance: "I confirm that the lifting equipment and load have been inspected. I only operate equipment that I am trained and competent to use. I establish and obey exclusion zones."
+
+- id: "WORK_AUTHORISATION"
+  rule_number: 8
+  display_name: "Work Authorisation"
+  core_action: "Work only with a valid permit when required"
+  icon: "FileCheck"
+  official_source: "IOGP Report 459"
+  triggers: ["work started before permit signed", "scope changed without re-authorization", "verbal permit only", "PTW isolation points mismatched", "expired permit", "trench unshored"]
+  guidance: "I have confirmed if a work permit is required. I am authorised to perform the work. I understand the permit, the job safety analysis, and the required controls."
+
+- id: "WORKING_AT_HEIGHT"
+  rule_number: 9
+  display_name: "Working at Height"
+  core_action: "Protect against a fall"
+  icon: "ArrowUpRight"
+  official_source: "IOGP Report 459"
+  triggers: ["no harness observed", "make-shift platform", "leaning ladder", "unhooked lanyard", "open grating", "elevated walkway", "derrick monkey board", "unprotected edge"]
+  guidance: "I inspect my fall protection equipment before use. I secure tools and work materials to prevent dropped objects. I tie off 100% to certified anchor points when working at or above 1.8 meters."

@@ -1,0 +1,1946 @@
+[
+  {
+    "report_id": "DEMO-01",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "DEMO-02",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "LINE_OF_FIRE",
+      "SAFE_MECHANICAL_LIFTING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "DEMO-03",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "DEMO-04",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "DEMO-05",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "DEMO-06",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORK_AUTHORISATION",
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "DEMO-07",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "DEMO-08",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "DEMO-09",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "DEMO-10",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "DEMO-11",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "DEMO-12",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "DEMO-13",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "DEMO-14",
+    "sif_potential_label": "INSUFFICIENT_EVIDENCE",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "DEMO-15",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "DEMO-16",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "DEMO-17",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "DEMO-18",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0019",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0020",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0021",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0022",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0023",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0024",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0025",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0026",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0027",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0028",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0029",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0030",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0031",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0032",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0033",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0034",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0035",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0036",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0037",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0038",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0039",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0040",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0041",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0042",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0043",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0044",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0045",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0046",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0047",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0048",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0049",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0050",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0051",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0052",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0053",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0054",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0055",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0056",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0057",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0058",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0059",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0060",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0061",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0062",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0063",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0064",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0065",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0066",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0067",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0068",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0069",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0070",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0071",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0072",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0073",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0074",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0075",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0076",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0077",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0078",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0079",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0080",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0081",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0082",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0083",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0084",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0085",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0086",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0087",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0088",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0089",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0090",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0091",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0092",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0093",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0094",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0095",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0096",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0097",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0098",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0099",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0100",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0101",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0102",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0103",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0104",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0105",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0106",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0107",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0108",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0109",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0110",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0111",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0112",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0113",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0114",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0115",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0116",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0117",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0118",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0119",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0120",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0121",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0122",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0123",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0124",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0125",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0126",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0127",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0128",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0129",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0130",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0131",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0132",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0133",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0134",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0135",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0136",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0137",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0138",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0139",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0140",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0141",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0142",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0143",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0144",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0145",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0146",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0147",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0148",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0149",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0150",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0151",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0152",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0153",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0154",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0155",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0156",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0157",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0158",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0159",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0160",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0161",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0162",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0163",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0164",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0165",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0166",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0167",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0168",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0169",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0170",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0171",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0172",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0173",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0174",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0175",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0176",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0177",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0178",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0179",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0180",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0181",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0182",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0183",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0184",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0185",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0186",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0187",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0188",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0189",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0190",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0191",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0192",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "WORKING_AT_HEIGHT"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0193",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0194",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0195",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0196",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0197",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0198",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0199",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0200",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0201",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0202",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "LINE_OF_FIRE"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0203",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "ENERGY_ISOLATION"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "UNVERIFIED"
+  },
+  {
+    "report_id": "OIL-SYN-0204",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0205",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0206",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0207",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0208",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0209",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0210",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0211",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0212",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0213",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0214",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0215",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0216",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "SAFE_MECHANICAL_LIFTING",
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0217",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0218",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0219",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0220",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0221",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0222",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0223",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0224",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0225",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0226",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0227",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0228",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0229",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0230",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0231",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0232",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0233",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0234",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0235",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0236",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "HOT_WORK"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0237",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0238",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "FAILED"
+  },
+  {
+    "report_id": "OIL-SYN-0239",
+    "sif_potential_label": "MEDIUM",
+    "life_saving_rule": [
+      "CONFINED_SPACE"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "MISSING"
+  },
+  {
+    "report_id": "OIL-SYN-0240",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0241",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0242",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0243",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "VERIFIED_INTACT"
+  },
+  {
+    "report_id": "OIL-SYN-0244",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  },
+  {
+    "report_id": "OIL-SYN-0245",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0246",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0247",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "WEAK"
+  },
+  {
+    "report_id": "OIL-SYN-0248",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0249",
+    "sif_potential_label": "LOW",
+    "life_saving_rule": [
+      "DRIVING"
+    ],
+    "process_safety_relevant": false,
+    "barrier_failure_type": "DEGRADED"
+  },
+  {
+    "report_id": "OIL-SYN-0250",
+    "sif_potential_label": "HIGH",
+    "life_saving_rule": [
+      "BYPASSING_SAFETY_CONTROLS"
+    ],
+    "process_safety_relevant": true,
+    "barrier_failure_type": "BYPASSED"
+  }
+]

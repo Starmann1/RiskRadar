@@ -1,0 +1,59 @@
+- canonical: "positive_energy_isolation"
+  display_name: "Positive Energy Isolation (LOTO / Blind Spades / Double Block & Bleed)"
+  barrier_type: "Physical / Procedural"
+  hierarchy_level: "Engineering"
+  target_hazards: ["stored_pressurized_energy", "electrical_energy"]
+
+- canonical: "atmospheric_gas_testing"
+  display_name: "Multi-Gas Atmospheric Testing & Monitoring"
+  barrier_type: "Human / Procedural"
+  hierarchy_level: "Administrative"
+  target_hazards: ["toxic_gas_h2s", "confined_space", "fire_explosion"]
+
+- canonical: "certified_fall_protection"
+  display_name: "Certified Fall Arrest Harness & 100% Tie-Off Anchor"
+  barrier_type: "Physical / Human"
+  hierarchy_level: "PPE / Engineering"
+  target_hazards: ["working_at_height"]
+
+- canonical: "lift_plan_exclusion_zone"
+  display_name: "Crane Lift Plan & Barricaded Exclusion Zone"
+  barrier_type: "Administrative / Physical"
+  hierarchy_level: "Engineering / Administrative"
+  target_hazards: ["suspended_load_dropped_objects", "lifting_operations", "line_of_fire"]
+
+- canonical: "permit_to_work_jsa"
+  display_name: "Valid Permit to Work (PTW) & Task Job Safety Analysis (JSA)"
+  barrier_type: "Procedural"
+  hierarchy_level: "Administrative"
+  target_hazards: ["work_authorisation_gaps", "simultaneous_operations"]
+
+- canonical: "fire_watch_flammable_containment"
+  display_name: "Continuous Fire Watch & Spark Containment Habitat"
+  barrier_type: "Human / Physical"
+  hierarchy_level: "Engineering / Administrative"
+  target_hazards: ["hot_work", "fire_explosion"]
+
+- canonical: "journey_management_defensive_driving"
+  display_name: "In-Vehicle Monitoring (IVMS) & Journey Management Plan"
+  barrier_type: "Administrative / Engineering"
+  hierarchy_level: "Administrative"
+  target_hazards: ["vehicle_movement_driving"]
+
+- canonical: "esd_interlock_integrity"
+  display_name: "Emergency Shutdown (ESD) & Safety Instrumented Systems (SIS)"
+  barrier_type: "Engineering"
+  hierarchy_level: "Engineering"
+  target_hazards: ["bypassed_safety_controls", "hydrocarbon_loss_of_containment"]
+
+- canonical: "blowout_preventer_well_control"
+  display_name: "BOP Stack & Well Kill Manifold Integrity"
+  barrier_type: "Engineering / Procedural"
+  hierarchy_level: "Engineering"
+  target_hazards: ["process_upset_blowout"]
+
+- canonical: "simops_matrix_coordination"
+  display_name: "Documented SIMOPS Matrix & Joint Tool-Box Talk (TBT)"
+  barrier_type: "Procedural / Human"
+  hierarchy_level: "Administrative"
+  target_hazards: ["simultaneous_operations"]

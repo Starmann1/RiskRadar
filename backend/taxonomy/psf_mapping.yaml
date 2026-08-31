@@ -1,0 +1,19 @@
+- id: "PROCESS_CONTAINMENT_INTEGRITY"
+  display_name: "Maintain Safe Hydrocarbon Containment"
+  description: "Ensure piping, vessels, valves, and gaskets are rated and tested to prevent catastrophic loss of containment"
+  triggers: ["hydrocarbon release", "loss of containment", "flange leak", "pinhole leak", "valve passing"]
+
+- id: "BARRIER_OVERRIDE_MOC"
+  display_name: "Walk the Line & Verify System Overrides"
+  description: "Formal Management of Change (MOC) and risk assessment prior to defeating safety instrumented systems or alarms"
+  triggers: ["alarm silenced", "interlock jumpered", "relief valve gagged", "safety override without MOC"]
+
+- id: "WELL_CONTROL_DRILLING_SAFETY"
+  display_name: "Well Control & Blowout Prevention"
+  description: "Continuous monitoring of formation pressures, mud pit gains, and immediate shut-in execution during influx"
+  triggers: ["kick observed", "pressure anomaly not actioned", "mud pit gain", "blowout preventer"]
+
+- id: "IGNITION_CONTROL_HAZARDOUS_ATMOSPHERE"
+  display_name: "Control Ignition Sources in Hydrocarbon Zones"
+  description: "Rigorous classification of hazardous zones (Zone 0/1/2) and hot work habitat containment"
+  triggers: ["hot work near vent", "spark near drain", "flammable vapor", "habitat not pressurized"]

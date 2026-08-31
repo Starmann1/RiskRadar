@@ -1,0 +1,71 @@
+- canonical: "exploration_drilling"
+  display_name: "Exploration & Drilling"
+  lifecycle_phase: "Upstream Exploration"
+  default_criticality: 2
+  description: "Rotary drilling, casing running, mud logging, tripping pipe, well logging, BOP drills"
+
+- canonical: "well_intervention_completion"
+  display_name: "Well Completion & Intervention"
+  lifecycle_phase: "Well Operations"
+  default_criticality: 2
+  description: "Workover rig operations, coiled tubing, wireline/slickline, hydraulic fracturing, wellhead maintenance"
+
+- canonical: "production_operations"
+  display_name: "Production & Gathering"
+  lifecycle_phase: "Production"
+  default_criticality: 1
+  description: "Oil gathering stations (OCS), group gathering stations (GGS), manifold switching, separator operations"
+
+- canonical: "crude_gas_processing"
+  display_name: "Gas Processing & Refining"
+  lifecycle_phase: "Processing"
+  default_criticality: 2
+  description: "Gas fractionation, LPG recovery, compressor station operations, NRL refining units"
+
+- canonical: "pipeline_transport"
+  display_name: "Pipeline Transport & Pigging"
+  lifecycle_phase: "Midstream Transport"
+  default_criticality: 2
+  description: "Trunk pipeline operations, pig launching/receiving, ROW patrolling, pump stations, valve stations"
+
+- canonical: "mechanical_electrical_maintenance"
+  display_name: "Maintenance & Turnaround"
+  lifecycle_phase: "Maintenance"
+  default_criticality: 2
+  description: "Flange breaking, valve replacement, pump overhaul, switchgear servicing, LOTO execution"
+
+- canonical: "lifting_rigging"
+  display_name: "Lifting & Crane Operations"
+  lifecycle_phase: "Cross-Cutting Logistics"
+  default_criticality: 2
+  description: "Heavy crane lifts, pipe yard loading, tandem lifts, rigging assembly"
+
+- canonical: "hot_work_welding"
+  display_name: "Hot Work & Welding"
+  lifecycle_phase: "Cross-Cutting Maintenance"
+  default_criticality: 2
+  description: "Structural welding, pipe cutting, angle grinding, thermal spark operations"
+
+- canonical: "confined_space_entry"
+  display_name: "Confined Space Entry"
+  lifecycle_phase: "Cross-Cutting Inspection"
+  default_criticality: 2
+  description: "Vessel desanding, tank inspection, sump cleaning, column turnaround"
+
+- canonical: "work_at_height"
+  display_name: "Elevated Structural Work"
+  lifecycle_phase: "Cross-Cutting Operations"
+  default_criticality: 2
+  description: "Derrick climbing, flare stack maintenance, scaffolding erection, elevated cable tray work"
+
+- canonical: "simultaneous_operations"
+  display_name: "SIMOPS (Simultaneous Operations)"
+  lifecycle_phase: "Multi-Activity Operations"
+  default_criticality: 2
+  description: "Concurrent high-energy operations sharing the same physical footprint"
+
+- canonical: "routine_inspection_patrol"
+  display_name: "Routine Inspection & Patrol"
+  lifecycle_phase: "Monitoring"
+  default_criticality: 0
+  description: "Visual inspection, gauge reading, perimeter security check, housekeeping audit"

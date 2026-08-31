@@ -1,0 +1,127 @@
+- canonical: "stored_pressurized_energy"
+  display_name: "Stored / Pressurized Energy"
+  energy_type: "pressure"
+  description: "Hydrocarbon or steam lines, pressurized vessels, hydraulic fluid, high-pressure gas"
+  aliases: ["residual pressure", "isolation assumed", "line still connected", "high pressure line", "trapped pressure", "pressure surge", "flange breaking", "bleed off", "depressurization"]
+  likely_lsr: ["ENERGY_ISOLATION"]
+  process_safety_fundamental: true
+
+- canonical: "electrical_energy"
+  display_name: "Electrical Energy"
+  energy_type: "electrical"
+  description: "Live electrical switchgear, high voltage cables, transformers, ungrounded circuits"
+  aliases: ["circuit not confirmed dead", "worked live", "live wire", "un-isolated power", "LOTO not applied", "arc flash", "electrical shock", "energized bus"]
+  likely_lsr: ["ENERGY_ISOLATION"]
+  process_safety_fundamental: false
+
+- canonical: "hydrocarbon_loss_of_containment"
+  display_name: "Hydrocarbon Release / Loss of Containment"
+  energy_type: "chemical"
+  description: "Uncontrolled release of crude oil, condensate, natural gas or associated vapor"
+  aliases: ["gas smell reported", "sheen observed", "pressure drop noted", "pinhole leak", "flange leak", "gas leak", "hydrocarbon release", "fugitive emission", "valve passing"]
+  likely_lsr: []
+  process_safety_fundamental: true
+
+- canonical: "toxic_gas_h2s"
+  display_name: "H₂S / Toxic Gas Exposure"
+  energy_type: "chemical"
+  description: "Hydrogen sulfide (H2S), sour gas, inert gases (nitrogen, CO2), hazardous fumes"
+  aliases: ["h2s alarm", "gas alarm activated", "detector not calibrated", "entered without testing", "sour gas", "nitrogen asphyxiation", "toxic atmosphere", "ppm spike"]
+  likely_lsr: ["CONFINED_SPACE"]
+  process_safety_fundamental: true
+
+- canonical: "fire_explosion"
+  display_name: "Fire / Explosion Hazard"
+  energy_type: "thermal"
+  description: "Flammable atmosphere combined with ignition source during hot work or static discharge"
+  aliases: ["ignition source present", "hot work near vent", "spark near drain", "flammable vapor", "flash fire", "explosive limit", "LEL reading"]
+  likely_lsr: ["HOT_WORK"]
+  process_safety_fundamental: true
+
+- canonical: "working_at_height"
+  display_name: "Working at Height"
+  energy_type: "gravitational"
+  description: "Personnel working above 1.8 meters without certified fall arrest or guardrails"
+  aliases: ["no harness observed", "make-shift platform", "leaning ladder", "unhooked lanyard", "open grating", "elevated walkway", "derrick monkey board", "unprotected edge"]
+  likely_lsr: ["WORKING_AT_HEIGHT"]
+  process_safety_fundamental: false
+
+- canonical: "suspended_load_dropped_objects"
+  display_name: "Dropped Objects / Suspended Loads"
+  energy_type: "gravitational"
+  description: "Lifting operations, unsecured tools at elevation, crane hoists, rigging failures"
+  aliases: ["worker under load", "unsecured tool at height", "suspended pipe", "sling damaged", "crane slew zone", "hoist wire frayed", "tag line missing", "dropped bolt"]
+  likely_lsr: ["LINE_OF_FIRE", "SAFE_MECHANICAL_LIFTING"]
+  process_safety_fundamental: false
+
+- canonical: "line_of_fire"
+  display_name: "Line of Fire"
+  energy_type: "mechanical"
+  description: "Positioning body in trajectory of released energy, moving vehicles, or tensioned cables"
+  aliases: ["stood near swinging load", "between vehicle and wall", "pinch point", "recoil path", "winch line snap zone", "pressurized cap release", "struck by"]
+  likely_lsr: ["LINE_OF_FIRE"]
+  process_safety_fundamental: false
+
+- canonical: "confined_space"
+  display_name: "Confined Space Entry"
+  energy_type: "chemical"
+  description: "Entry into vessels, tanks, pits, pipeline trenches with limited egress and hazardous air"
+  aliases: ["entered before gas test", "no attendant present", "vessel entry", "manhole open", "pit entry", "confined space permit expired", "oxygen deficiency"]
+  likely_lsr: ["CONFINED_SPACE"]
+  process_safety_fundamental: false
+
+- canonical: "hot_work"
+  display_name: "Hot Work (Welding / Cutting / Grinding)"
+  energy_type: "thermal"
+  description: "Open flame, spark-generating operations in classified hydrocarbon processing areas"
+  aliases: ["grinding near open drain", "permit not renewed", "fire watch absent", "welding on live line", "habitat not pressurized", "cutting torch near manifold"]
+  likely_lsr: ["HOT_WORK"]
+  process_safety_fundamental: false
+
+- canonical: "vehicle_movement_driving"
+  display_name: "Vehicle Movement / Driving"
+  energy_type: "mechanical"
+  description: "Personnel transport, heavy tanker transit on oilfield lease roads, speeding, fatigue"
+  aliases: ["phone use while driving", "excessive speed noted", "seatbelt not fastened", "fatigue driving", "tanker rollover risk", "fog driving", "no journey plan"]
+  likely_lsr: ["DRIVING"]
+  process_safety_fundamental: false
+
+- canonical: "lifting_operations"
+  display_name: "Mechanical Lifting Operations"
+  energy_type: "mechanical"
+  description: "Crane lifts, forklift operations, rigging, boom trucks, uncertified lifting gear"
+  aliases: ["sling condition not checked", "lift plan not followed", "overloaded crane", "rigger not certified", "tandem lift without plan", "outriggers unpadded"]
+  likely_lsr: ["SAFE_MECHANICAL_LIFTING"]
+  process_safety_fundamental: false
+
+- canonical: "work_authorisation_gaps"
+  display_name: "Work Authorisation / Permit Gap"
+  energy_type: "mechanical"
+  description: "Executing hazardous tasks without valid PTW, JSA, or beyond approved scope"
+  aliases: ["work started before permit signed", "scope changed without re-authorization", "verbal permit only", "PTW isolation points mismatched", "expired permit"]
+  likely_lsr: ["WORK_AUTHORISATION"]
+  process_safety_fundamental: false
+
+- canonical: "bypassed_safety_controls"
+  display_name: "Bypassed Safety Controls & Interlocks"
+  energy_type: "pressure"
+  description: "Overriding ESD valves, defeating burner management interlocks, jumpering gas sensors"
+  aliases: ["alarm silenced", "interlock jumpered", "bypass not logged", "fire detector isolated", "relief valve gagged", "safety override without MOC"]
+  likely_lsr: ["BYPASSING_SAFETY_CONTROLS"]
+  process_safety_fundamental: true
+
+- canonical: "process_upset_blowout"
+  display_name: "Process Upset / Blowout / Loss of Well Control"
+  energy_type: "pressure"
+  description: "Influx of formation fluids during drilling, kick detection, mud weight imbalance"
+  aliases: ["kick observed", "pressure anomaly not actioned", "BOP test overdue", "well shut-in delayed", "mud pit gain", "tubing head pressure abnormal"]
+  likely_lsr: []
+  process_safety_fundamental: true
+
+- canonical: "simultaneous_operations"
+  display_name: "Simultaneous Operations (SIMOPS)"
+  energy_type: "mechanical"
+  description: "Uncoordinated high-risk concurrent tasks (e.g. crane lift over live hot-work area)"
+  aliases: ["SIMOPS review missing", "two crews overlapping", "lifting over live hot work", "uncoordinated maintenance", "drilling and production SIMOPS"]
+  likely_lsr: ["SAFE_MECHANICAL_LIFTING", "HOT_WORK"]
+  process_safety_fundamental: true
