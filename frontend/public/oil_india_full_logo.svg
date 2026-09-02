@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" fill="none">
+  <!-- Top Black Donut / Ring (O) -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M200 20 C277.32 20 340 82.68 340 160 C340 237.32 277.32 300 200 300 C122.68 300 60 237.32 60 160 C60 82.68 122.68 20 200 20 Z M200 90 C238.66 90 270 121.34 270 160 C270 198.66 238.66 230 200 230 C161.34 230 130 198.66 130 160 C130 121.34 161.34 90 200 90 Z"
+    fill="#231F20"
+  />
+  <!-- Bottom Red Rectangle (I) -->
+  <rect x="130" y="300" width="140" height="90" fill="#E31E24" />
+  
+  <!-- Hindi Text: ऑयल इंडिया -->
+  <text x="200" y="425" text-anchor="middle" font-family="'Noto Sans Devanagari', 'Hind', sans-serif" font-weight="800" font-size="28" fill="#231F20">ऑयल इंडिया</text>
+  
+  <!-- Horizontal Divider Line -->
+  <line x1="60" y1="438" x2="340" y2="438" stroke="#231F20" stroke-width="3" />
+  
+  <!-- English Text: OIL INDIA -->
+  <text x="200" y="470" text-anchor="middle" font-family="'Inter', 'Arial Black', sans-serif" font-weight="900" font-size="34" letter-spacing="2" fill="#231F20">OIL INDIA</text>
+</svg>

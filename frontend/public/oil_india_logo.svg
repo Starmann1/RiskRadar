@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <!-- Oil India Limited (OIL) Official Emblem -->
+  <!-- Top Black / Dark Charcoal Donut / Ring (O) -->
+  <path
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M100 10 C144.183 10 180 45.817 180 90 C180 134.183 144.183 170 100 170 C55.817 170 20 134.183 20 90 C20 45.817 55.817 10 100 10 Z M100 50 C122.091 50 140 67.909 140 90 C140 112.091 122.091 130 100 130 C77.909 130 60 112.091 60 90 C60 67.909 77.909 50 100 50 Z"
+    fill="#231F20"
+  />
+  <!-- Bottom Red Vertical Column / Base (I) -->
+  <rect x="60" y="170" width="80" height="60" fill="#E31E24" />
+</svg>
