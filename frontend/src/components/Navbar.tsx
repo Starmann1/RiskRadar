@@ -30,7 +30,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const isDropdownActive = ["bn", "mr", "te", "ta"].includes(language);
+  const isDropdownActive = language !== "en" && language !== "hi";
 
   const getScreenTitle = (screenId: number): string => {
     switch (screenId) {
